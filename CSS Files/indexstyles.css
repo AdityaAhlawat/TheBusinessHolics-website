@@ -332,14 +332,79 @@ a:hover {
 }
 
 /* Making it reponsive */
+@media (max-width: 1024px){
+    #we_cover {
+        margin-left: 5.1em;
+    }
+    #cover {
+        margin-left: 5em;
+    }
+    #topic2 {
+        margin-left: 1em;
+    }
+    #spacer-40 {
+        min-height: 40em;
+        margin-bottom: -7.6em;
+    }
+}
+
+
 @media (max-width: 991px)
 {
+    html {
+        width: 100%;
+    }
+    body {
+        width: 
+    }
+    .display-2 {
+        width: 100%;
+    }
+    .word {
+        width: 260px;
+    }
+    #spacer-40 {
+        min-height: 40em;
+        margin-bottom: -7.6em;
+    }
+    #we_cover {
+        font-size: 1em;
+        margin-left: 3em;
+    }
+    #cover {
+        margin-left: 2.8em;
+    }
+    #intro {
+        font-size: 1.9em;
+    }
+    #topic2 {
+        font-size: 2em;
+        margin-left: 3em;
+    }
+    .wisteria {
+        margin-left: .1em;
+        width: 200px;
+    }
+    .belize {
+        margin-left: -.55em;
+    }
+    .green {
+        margin-left: -0.4em;
+        width: 200px;
+    }
+    .midnight {
+        margin-left: -1.5em;
+    }
+    .pomegranate {
+        margin-left: -.15em;
+        width: 200px;
+    }
     #three_bar {
         opacity: 1;
     }
     section {
         margin-top: 8vh;
-        padding: 100px;
+        padding: 40px;
     }
     header {
         top: 0;

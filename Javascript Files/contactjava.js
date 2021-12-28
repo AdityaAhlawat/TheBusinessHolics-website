@@ -21,7 +21,7 @@ window.addEventListener("DOMContentLoaded", function () {
   
     function error() {
       status.classList.add("error");
-      status.innerHTML = "Oops! There was a problem. Please reload the page and try again.";
+      status.innerHTML = "Oops! There was a problem. Please reload the page and try again or write an email to thebusinessholics@gmail.com";
     }
   
     // handle the form submission event
