@@ -3,6 +3,11 @@ window.addEventListener("scroll", function(){
     header.classList.toggle('sticky', window.scrollY > 0);  
 }); 
 
+setTimeout(function() {
+    const popup = document.querySelector('.pop-up'); 
+    popup.classList.toggle('open');
+    }, 3000);
+    
 const navigation = document.querySelector('nav');
 document.querySelector('.toggle').onclick = function(){
     this.classList.toggle('active');
@@ -70,5 +75,12 @@ let line3 = document.querySelector('.line-3');
 window.onscroll = () => {
     let pos = window.scrollY;
     console.log(pos);
+}
+
+const popup = document.querySelector('.pop-up'); 
+const close = document.querySelector('.close');
+
+close.onclick = function(){
+    popup.classList.toggle('open');
 }
 
