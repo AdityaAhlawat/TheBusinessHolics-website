@@ -640,53 +640,8 @@ a:hover {
   .pop-up .content .subscribe form {
     overflow: hidden;
   }
-  .pop-up .content .subscribe form input {
-    width: 100%;
-    float: left;
-    padding: 15px 20px;
-    text-align: center;
-    font-family: inherit;
-    font-size: 1.1rem;
-    letter-spacing: 0.05rem;
-    outline: 0;
-  }
-  .pop-up .content .subscribe form input[type=email] {
-    margin-bottom: 15px;
-    border: 1px solid #bec1c5;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-  }
-  @media (min-width: 768px) {
-    .pop-up .content .subscribe form input[type=email] {
-      margin-bottom: 0px;
-      width: 75%;
-      border-right-width: 0px;
-    }
-  }
-  .pop-up .content .subscribe form input[type=email]:focus {
-    border-color: #3e4146;
-  }
-  .pop-up .content .subscribe form input[type=submit] {
-    background-color: #8e6ac1;
-    color: #ffffff;
-    border: 1px solid #8e6ac1;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-  }
-  @media (min-width: 768px) {
-    .pop-up .content .subscribe form input[type=submit] {
-      width: 25%;
-    }
-  }
-  .pop-up .content .subscribe form input[type=submit]:hover {
-    cursor: pointer;
-    background-color: #7349af;
-    border-color: #7349af;
-  }
+
+
   .pop-up.open {
     visibility: visible;
     opacity: 1;
